@@ -24,13 +24,13 @@ path {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script src="d3.slider.js"></script>
 
-<!-- <div id="slider3"></div> -->
+<div id="slider3"></div>
 <script>
 var width = 1080,
     height = 600;
 var projection = d3.geo.mercator()
-    .center([0, 5 ])
-    .scale(150);
+    .center([0, 0])
+    .scale(200);
      // .rotate([-180,0]);
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -41,6 +41,16 @@ var svg = d3.select("body").append("svg")
 var path = d3.geo.path()
     .projection(projection);
 var g = svg.append("g");
+
+var colorScale = d3.scale.linear()
+                    .domain([0.0, 50.0, 200.0,1000.0])
+                    .range(["#FFFF00", "#FFAA00","#FF5500", "#FF0000"]);
+
+var radiusScale = d3.scale.linear()
+                    .domain([0.0, 100.0, 200.0])
+                    .range([5,15, 25]);
+
+
 // load and display the World
 d3.json("world-110m2.json", function(error, topology) {
 
@@ -60,7 +70,11 @@ d3.csv("dv_data.csv")
         lng: d.longitude,
         nkill: d.nkill,
         city: d.city,
-        created_at: moment(d.time,"DD-MM-YYYY hh:mm:ss").unix()
+        time: d.time,
+        //created_at: moment(d.time,"DD-MM-YYYY hh:mm:ss").unix()
+        year: d.iyear,
+        year_m: d.year_m,
+        level: d.level
       };
     })
     .get(function(err, rows) {
@@ -86,7 +100,7 @@ var displaySites = function(data) {
   sites.enter()
       .append("a")
           .attr("xlink:href", function(d) {
-            return "https://www.google.com/search?q="+d.city;}
+            return "https://www.google.com/search?q="+d.city+" "+d.time;}
           )
       .append("circle")
       .attr("class", "site")
@@ -103,30 +117,31 @@ var displaySites = function(data) {
       .attr("r", 0.1)
       .style("fill",  "black")
       .transition().duration(400)
-        .attr("r", 15)
+        .attr("r", function(d){return radiusScale(d.level);})
         .style("fill",  "red")
         .transition().duration(800)
         .attr("r", 3)
-        .style("fill",  "yellow");
+        .style("fill",  function(d){return colorScale(d.level);});
   sites.exit()
     .transition().duration(200)
       .attr("r",0.1)
       .remove();
 };
-var minDateUnix = moment('06-01-1992', "DD MM YYYY").unix();
-var maxDateUnix = moment('31-12-2015', "DD MM YYYY").unix();
-var secondsInDay = 60 * 60 * 24;
+
+var minDateUnix = 1992;
+var maxDateUnix = 2015;
+
+// var secondsInDay = 60 * 60 * 24;
 d3.select('#slider3').call(d3.slider()
-  .axis(true).min(minDateUnix).max(maxDateUnix).step(secondsInDay)
+  .axis(true).min(minDateUnix).max(maxDateUnix).step(0.1)
   .on("slide", function(evt, value) {
     var newData = _(site_data).filter( function(site) {
-      return site.created_at < value;
+      //console.log();
+      return site.year_m < value ;
     })
-    //console.log("New set size ", newData.length);
     displaySites(newData);
   })
 );
-
 
 // zoom and pan
 // var zoom = d3.behavior.zoom()
