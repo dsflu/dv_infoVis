@@ -1,0 +1,492 @@
+case,iyear,imonth,iday,country_txt,city,latitude,longitude,attacktype1_txt,nkill,nwound,level
+110,2012,1,5,Iraq,Al-Batha,31.135535,45.861207,Bombing/Explosion,45.0,70.0,55.0
+172,2012,1,6,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,26.0,46.0,34.0
+233,2012,1,10,Pakistan,Jamrud,34.000016,71.383411,Bombing/Explosion,35.0,60.0,45.0
+335,2012,1,14,Iraq,Basra,30.5,47.816667,Bombing/Explosion,54.0,131.0,84.80000000000001
+556,2012,1,24,Somalia,Beledweyne,4.735972,45.203972,Bombing/Explosion,31.0,70.0,46.599999999999994
+621,2012,1,27,Iraq,Baghdad,33.271403,44.493661,Bombing/Explosion,32.0,60.0,43.2
+718,2012,2,1,Colombia,Tumaco,1.806567,-78.76485,Bombing/Explosion,9.0,70.0,33.4
+888,2012,2,10,Syria,Aleppo,36.215578,37.159272,Bombing/Explosion,15.0,100.0,49.0
+889,2012,2,10,Syria,Aleppo,36.215578,37.159272,Bombing/Explosion,15.0,100.0,49.0
+993,2012,2,17,Pakistan,Parachinar,33.899167,70.100833,Bombing/Explosion,40.0,64.0,49.6
+1042,2012,2,20,Nigeria,Maiduguri,11.833373,13.149902,Bombing/Explosion,38.0,0.0,22.8
+1095,2012,2,23,Iraq,Musayyib,32.778611,44.29,Bombing/Explosion,1.0,60.0,24.6
+1106,2012,2,23,Pakistan,Bahadur Kalay,33.968178,71.551622,Bombing/Explosion,12.0,36.0,21.6
+1130,2012,2,23,Pakistan,Peshawar,34.004274,71.5448,Bombing/Explosion,15.0,32.0,21.8
+1151,2012,2,25,Yemen,Mukalla,14.543537,49.127285,Bombing/Explosion,31.0,50.0,38.599999999999994
+1304,2012,3,2,Pakistan,Tirah district,33.8125,70.676944,Bombing/Explosion,23.0,20.0,21.799999999999997
+1513,2012,3,11,Pakistan,Badaber,33.923611,71.561111,Bombing/Explosion,18.0,35.0,24.799999999999997
+1629,2012,3,17,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,14.5,70.0,36.7
+1630,2012,3,17,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,14.5,70.0,36.7
+1902,2012,3,31,Thailand,Hat Yai,7.001944,100.457222,Bombing/Explosion,14.0,400.0,168.4
+2088,2012,4,8,Nigeria,Kaduna,10.516667,7.433333,Bombing/Explosion,42.0,10.0,29.2
+2110,2012,4,9,Somalia,Baidoa,3.116667,43.65,Bombing/Explosion,12.0,35.0,21.2
+2713,2012,5,2,Egypt,Al-Waili,30.070369,31.282664,Bombing/Explosion,11.0,49.0,26.200000000000003
+2714,2012,5,3,Russia,Makhachkala,42.978368,47.491066000000004,Bombing/Explosion,1.0,50.5,20.800000000000004
+2715,2012,5,3,Russia,Makhachkala,42.978368,47.491066000000004,Bombing/Explosion,14.0,50.5,28.6
+2740,2012,5,4,Pakistan,Khar,34.730041,71.521948,Bombing/Explosion,21.0,40.0,28.6
+2883,2012,5,10,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,57.0,370.0,182.2
+3021,2012,5,14,Pakistan,Quetta,30.209304,67.018137,Bombing/Explosion,6.0,58.0,26.800000000000004
+3189,2012,5,19,Syria,Deir ez-Zor,35.333389,40.15002,Bombing/Explosion,10.0,100.0,46.0
+3223,2012,5,21,Yemen,Sanaa,15.352029,44.207456,Bombing/Explosion,97.0,300.0,178.2
+3475,2012,5,31,Iraq,Baghdad,33.361103,44.314193,Bombing/Explosion,11.0,36.0,21.0
+3561,2012,6,4,Iraq,Bab Al-Moatham,33.354802,44.391023,Bombing/Explosion,26.0,65.0,41.6
+3612,2012,6,5,Pakistan,Gilgit,35.918091,74.289803,Bombing/Explosion,6.0,50.0,23.6
+3652,2012,6,7,Pakistan,Quetta,30.165686,67.00178,Bombing/Explosion,14.0,40.0,24.4
+3681,2012,6,8,Pakistan,Gulbela,34.119318,71.651019,Bombing/Explosion,19.0,40.0,27.4
+3767,2012,6,11,Pakistan,Dringarh,29.90265,66.753111,Bombing/Explosion,6.0,50.0,23.6
+3830,2012,6,13,Iraq,Hillah,32.482956,44.434507,Bombing/Explosion,20.0,38.0,27.200000000000003
+3916,2012,6,16,Pakistan,Landi Kotal,34.0989,71.14978,Bombing/Explosion,25.0,50.0,35.0
+3918,2012,6,16,Iraq,Baghdad,33.381063,44.345039,Bombing/Explosion,18.0,36.0,25.2
+3919,2012,6,16,Iraq,Baghdad,33.32717,44.423113,Bombing/Explosion,14.0,32.0,21.200000000000003
+3956,2012,6,18,Iraq,Baqubah,33.749892,44.633421,Bombing/Explosion,16.0,40.0,25.6
+3966,2012,6,18,Nigeria,Damaturu,11.675909,12.11569,Bombing/Explosion,8.33,99.0,44.598
+4014,2012,6,20,Afghanistan,Spin Jumat,33.33445,69.920151,Bombing/Explosion,22.0,31.0,25.6
+4043,2012,6,22,Iraq,Baghdad,33.356774,44.484232,Bombing/Explosion,6.5,50.0,23.9
+4044,2012,6,22,Iraq,Baghdad,33.356774,44.484232,Bombing/Explosion,6.5,50.0,23.9
+4195,2012,6,28,Iraq,Baqubah,33.749892,44.633421,Bombing/Explosion,6.0,51.0,24.0
+4304,2012,7,3,Iraq,Diwaniyah,31.989167,44.924722,Bombing/Explosion,25.0,40.0,31.0
+5106,2012,8,4,Yemen,Jaar,13.223056,45.305556,Bombing/Explosion,46.0,40.0,43.599999999999994
+5410,2012,8,14,Afghanistan,Zaranj,30.96,61.86,Bombing/Explosion,11.0,36.7,21.28
+5411,2012,8,14,Afghanistan,Zaranj,30.96,61.86,Bombing/Explosion,11.0,36.7,21.28
+5412,2012,8,14,Afghanistan,Zaranj,30.96,61.86,Bombing/Explosion,11.0,36.6,21.240000000000002
+5496,2012,8,16,Iraq,Baghdad,33.389638,44.46091,Bombing/Explosion,16.0,49.0,29.200000000000003
+5586,2012,8,20,Turkey,Gaziantep,37.066076,37.378553,Bombing/Explosion,10.0,67.0,32.8
+5747,2012,8,28,Syria,Jaramana,33.483333,36.35,Bombing/Explosion,12.0,48.0,26.400000000000002
+5816,2012,9,1,Afghanistan,Saydabad,33.895519,68.763192,Bombing/Explosion,14.0,69.0,36.0
+5880,2012,9,4,Afghanistan,Dur Baba,34.03949,70.930077,Bombing/Explosion,26.0,50.0,35.6
+6005,2012,9,9,Iraq,Amarah,31.837555,47.151015,Bombing/Explosion,14.0,60.0,32.4
+6006,2012,9,9,Iraq,Baghdad,33.389638,44.46091,Bombing/Explosion,13.0,32.0,20.6
+6013,2012,9,9,Iraq,Unknown,35.290356,44.007872,Bombing/Explosion,7.0,40.0,20.2
+6044,2012,9,9,Syria,Aleppo,36.215549,37.159279,Bombing/Explosion,17.0,40.0,26.2
+6055,2012,9,10,Pakistan,Parachinar,33.899167,70.100833,Bombing/Explosion,14.0,70.0,36.4
+6289,2012,9,23,Nigeria,Bauchi,10.30982,9.845172,Bombing/Explosion,3.0,48.0,21.000000000000004
+6368,2012,9,27,Iraq,Tikrit,34.604328,43.68557,Bombing/Explosion,13.0,34.0,21.400000000000002
+6457,2012,10,1,Afghanistan,Khost,33.33445,69.920151,Bombing/Explosion,21.0,57.0,35.4
+6768,2012,10,13,Pakistan,Dara Adam Khel,33.686152,71.514528,Bombing/Explosion,17.0,30.0,22.2
+6912,2012,10,19,Lebanon,Beirut,33.884867,35.517895,Bombing/Explosion,8.0,78.0,36.0
+6940,2012,10,20,Iraq,Baghdad,33.361103,44.314193,Bombing/Explosion,11.0,35.0,20.6
+7089,2012,10,26,Afghanistan,Maymana,35.92017,64.776314,Bombing/Explosion,42.0,50.0,45.2
+7159,2012,10,28,Nigeria,Malali,10.516667,7.433333,Bombing/Explosion,3.0,100.0,41.8
+7182,2012,10,29,Syria,Jaramana,33.483333,36.35,Bombing/Explosion,10.0,41.0,22.400000000000002
+7351,2012,11,6,Iraq,Taji,33.509167,44.234167,Bombing/Explosion,29.0,40.0,33.4
+7355,2012,11,6,Syria,Hai al-Wuroud,33.5111,36.3064,Bombing/Explosion,10.0,40.0,22.0
+7731,2012,11,21,Pakistan,Rawalpindi,33.605801,73.043747,Bombing/Explosion,25.0,62.0,39.8
+7756,2012,11,23,Afghanistan,Maydan Shahr,34.361059,68.840693,Bombing/Explosion,4.0,90.0,38.4
+7788,2012,11,25,Pakistan,Dera Ismail Khan,31.823759,70.9095,Bombing/Explosion,5.0,83.0,36.2
+7856,2012,11,28,Syria,Jaramana,33.483333,36.35,Bombing/Explosion,36.0,83.0,54.8
+7894,2012,11,29,Iraq,Hillah,32.483321,44.433642,Bombing/Explosion,13.0,40.0,23.8
+7895,2012,11,29,Iraq,Hillah,32.483321,44.433642,Bombing/Explosion,13.0,40.0,23.8
+8010,2012,12,12,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,8.0,50.0,24.8
+8193,2012,12,15,Pakistan,Peshawar,34.004274,71.5448,Bombing/Explosion,14.0,40.0,24.4
+8237,2012,12,17,Iraq,Baghdad,33.324999,44.422009,Bombing/Explosion,11.0,40.0,22.6
+8256,2012,12,17,Pakistan,Jamrud,34.00012,71.383252,Bombing/Explosion,21.0,66.0,39.0
+8431,2012,12,29,Pakistan,Karachi,24.853185,67.016672,Bombing/Explosion,7.0,50.0,24.2
+8442,2012,12,30,Pakistan,Mastung,29.800158,66.849889,Bombing/Explosion,19.0,25.0,21.4
+8521,2013,1,1,Pakistan,Karachi,24.92808,67.064331,Bombing/Explosion,4.0,45.0,20.4
+8553,2013,1,3,Iraq,Musayyib,32.778471,44.28981,Bombing/Explosion,28.0,60.0,40.8
+8555,2013,1,3,Syria,Barzeh al-Balad,33.549054,36.31459,Bombing/Explosion,11.0,40.0,22.6
+8736,2013,1,10,Pakistan,Quetta,30.207454,67.015121,Bombing/Explosion,53.5,84.5,65.9
+8737,2013,1,10,Pakistan,Quetta,30.207454,67.015121,Bombing/Explosion,53.5,84.5,65.9
+8738,2013,1,10,Pakistan,Quetta,30.207454,67.015121,Bombing/Explosion,12.0,50.0,27.2
+8739,2013,1,10,Pakistan,Mingora,34.777434,72.363113,Bombing/Explosion,31.0,70.0,46.599999999999994
+8875,2013,1,15,Syria,Aleppo,36.215549,37.159279,Bombing/Explosion,41.0,80.0,56.599999999999994
+8876,2013,1,15,Syria,Aleppo,36.215549,37.159279,Bombing/Explosion,41.0,80.0,56.599999999999994
+8908,2013,1,16,Iraq,Kirkuk,35.46872,44.392176,Bombing/Explosion,18.0,90.0,46.8
+9017,2013,1,21,Syria,Salmiyeh,35.013332,37.0525,Bombing/Explosion,31.0,24.0,28.2
+9070,2013,1,23,Iraq,Tuz Khormato,34.88562,44.639339,Bombing/Explosion,43.0,75.0,55.8
+9330,2013,2,1,Pakistan,Hangu,33.534097,71.058001,Bombing/Explosion,25.0,55.0,37.0
+9354,2013,2,2,Pakistan,Serai Naurang,32.821074,70.779198,Bombing/Explosion,35.0,8.0,24.2
+9374,2013,2,3,Iraq,Kirkuk,35.46883,44.39098,Bombing/Explosion,36.0,70.0,49.599999999999994
+9390,2013,2,4,Iraq,Taji,33.529444,44.2775,Bombing/Explosion,22.0,44.0,30.8
+9481,2013,2,8,Pakistan,Kalaya,33.742381,70.965883,Bombing/Explosion,13.0,31.0,20.2
+9669,2013,2,16,Pakistan,Quetta,30.181994,66.957103,Bombing/Explosion,91.0,169.0,122.20000000000002
+9821,2013,2,21,India,Hyderabad,17.376812,78.487812,Bombing/Explosion,8.0,58.5,28.200000000000003
+9822,2013,2,21,India,Hyderabad,17.376812,78.487812,Bombing/Explosion,8.0,58.5,28.200000000000003
+9823,2013,2,21,Syria,Damascus,33.508302,36.294296,Bombing/Explosion,62.0,201.0,117.6
+10027,2013,3,1,Iraq,Diwaniyah,31.989167,44.924722,Bombing/Explosion,5.0,50.0,23.0
+10057,2013,3,3,Pakistan,Karachi,24.941464,67.093003,Bombing/Explosion,45.0,151.0,87.4
+10079,2013,3,4,Iraq,Rutba,33.038056,40.284444,Bombing/Explosion,57.0,7.0,36.99999999999999
+10275,2013,3,11,Iraq,Dibis,35.671944,44.066944,Bombing/Explosion,6.0,120.0,51.6
+10338,2013,3,13,Syria,Damascus,33.461571,36.241951,Bombing/Explosion,3.0,50.0,21.8
+10431,2013,3,18,Pakistan,Peshawar,34.004299,71.54483,Bombing/Explosion,6.0,45.0,21.6
+10433,2013,3,18,Nigeria,Kano,12.023287,8.536534,Bombing/Explosion,39.0,75.0,53.4
+10463,2013,3,19,Syria,Khan al-Assal,36.216213,37.163826,Bombing/Explosion,25.0,130.0,67.0
+10531,2013,3,21,Pakistan,Jalozai,33.905685,71.809173,Bombing/Explosion,17.0,30.0,22.2
+10551,2013,3,21,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,50.0,84.0,63.6
+10552,2013,3,22,Pakistan,Dera Allah Yar,28.37441,68.34808,Bombing/Explosion,8.0,40.0,20.8
+10578,2013,3,23,Pakistan,Mir Ali,32.970328,70.277903,Bombing/Explosion,18.0,26.0,21.2
+10744,2013,3,29,Iraq,Kirkuk,35.431862,44.380249,Bombing/Explosion,4.0,70.0,30.4
+10882,2013,4,3,Afghanistan,Farah,32.374802,62.115719,Bombing/Explosion,53.0,95.0,69.8
+10961,2013,4,6,Iraq,Baqubah,33.75,44.633333,Bombing/Explosion,23.0,60.0,37.8
+11011,2013,4,8,Syria,Damascus,33.521992,36.292302,Bombing/Explosion,14.0,53.0,29.6
+11192,2013,4,13,Somalia,Mogadishu,2.042338,45.336403,Bombing/Explosion,38.0,58.0,46.0
+11223,2013,4,15,United States,Boston,42.350265,-71.080976,Bombing/Explosion,1.0,132.0,53.400000000000006
+11224,2013,4,15,United States,Boston,42.350265,-71.080976,Bombing/Explosion,2.0,132.0,54.00000000000001
+11296,2013,4,16,Pakistan,Peshawar,34.004378,71.580409,Bombing/Explosion,18.0,60.0,34.8
+11364,2013,4,18,Iraq,Baghdad,33.297678,44.290423,Bombing/Explosion,28.0,50.0,36.8
+11618,2013,4,26,Pakistan,Karachi,24.95011,66.96645,Bombing/Explosion,11.0,40.0,22.6
+11620,2013,4,26,Iraq,Baghdad,33.315037,44.385052,Bombing/Explosion,4.0,46.0,20.8
+11736,2013,4,29,Pakistan,Peshawar,34.003133,71.498678,Bombing/Explosion,9.0,43.0,22.599999999999998
+11785,2013,4,30,Syria,Damascus,33.51247,36.298056,Bombing/Explosion,9.0,60.0,29.4
+11957,2013,5,5,Tanzania,Arusha,-3.365789,36.67445,Bombing/Explosion,3.0,60.0,25.8
+12024,2013,5,6,Pakistan,Parachinar,33.900164,70.097065,Bombing/Explosion,23.0,70.0,41.8
+12181,2013,5,11,Turkey,Reyhanli,36.267624,36.566705,Bombing/Explosion,26.5,70.0,43.9
+12182,2013,5,11,Turkey,Reyhanli,36.267624,36.566705,Bombing/Explosion,26.5,70.0,43.9
+12368,2013,5,16,Afghanistan,Kabul,34.499217,69.213253,Bombing/Explosion,16.0,40.0,25.6
+12394,2013,5,17,Iraq,Baqubah,33.743755,44.620757,Bombing/Explosion,20.0,28.5,23.4
+12395,2013,5,17,Iraq,Baqubah,33.743755,44.620757,Bombing/Explosion,20.0,28.5,23.4
+12534,2013,5,20,Yemen,Sanaa,15.323302,44.204644,Bombing/Explosion,71.0,111.0,87.0
+12554,2013,5,21,Iraq,Tuz Khormato,34.88755,44.631945,Bombing/Explosion,5.0,43.0,20.2
+12608,2013,5,23,Niger,Agadez,16.966667,7.983333,Bombing/Explosion,23.0,16.0,20.2
+12817,2013,5,29,Iraq,Baghdad,33.27264,44.299996,Bombing/Explosion,18.0,40.0,26.799999999999997
+13066,2013,6,7,Iraq,Muqdadiyah,33.974826,44.916716,Bombing/Explosion,18.0,44.0,28.4
+13138,2013,6,10,Iraq,Al-Jadidah,33.636465,44.429219,Bombing/Explosion,14.0,50.0,28.4
+13166,2013,6,11,Afghanistan,Kabul,34.527663,69.176724,Bombing/Explosion,15.0,40.0,25.0
+13259,2013,6,15,Pakistan,Quetta,30.201452,67.00661,Bombing/Explosion,15.0,30.0,21.0
+13369,2013,6,18,Pakistan,Mardan,34.198181,72.044411,Bombing/Explosion,35.0,43.0,38.2
+13370,2013,6,18,Iraq,Baghdad,33.322977,44.424498,Bombing/Explosion,15.5,28.5,20.7
+13371,2013,6,18,Iraq,Baghdad,33.322868,44.424845,Bombing/Explosion,15.5,28.5,20.7
+13451,2013,6,21,Pakistan,Peshawar,34.004289,71.54603,Bombing/Explosion,15.0,32.0,21.8
+13481,2013,6,22,Iraq,Taji,33.510619,44.232574,Bombing/Explosion,25.0,25.0,25.0
+13725,2013,6,30,Pakistan,Badaber,33.914019,71.553286,Bombing/Explosion,20.0,50.0,32.0
+13727,2013,6,30,Pakistan,Quetta,30.177166,66.96627,Bombing/Explosion,32.0,55.0,41.2
+13770,2013,7,1,Iraq,Muqdadiyah,33.966996,44.922352,Bombing/Explosion,23.0,28.0,25.0
+13907,2013,7,5,Iraq,Baghdad,33.313315,44.394007,Bombing/Explosion,16.0,32.0,22.4
+13947,2013,7,6,Pakistan,Lahore,31.564897,74.308684,Bombing/Explosion,5.0,50.0,23.0
+14003,2013,7,7,Pakistan,Quetta,30.181994,66.957103,Bombing/Explosion,29.0,70.0,45.4
+14054,2013,7,9,Lebanon,Mount Lebanon,33.853056,35.5125,Bombing/Explosion,0.0,53.0,21.200000000000003
+14150,2013,7,12,Iraq,Kirkuk,35.461229,44.387398,Bombing/Explosion,42.0,35.0,39.2
+14176,2013,7,13,Iraq,Baghdad,33.251389,44.391944,Bombing/Explosion,16.0,35.0,23.6
+14423,2013,7,19,Iraq,Wajihiyah,33.883794,44.85486,Bombing/Explosion,21.0,40.0,28.6
+14502,2013,7,22,Iraq,Mosul,36.340641,43.132396,Bombing/Explosion,26.0,16.0,22.0
+14608,2013,7,24,Syria,Damascus,33.471831,36.303377,Bombing/Explosion,11.0,45.0,24.6
+14675,2013,7,25,Syria,Damascus,33.510771,36.305641,Bombing/Explosion,10.0,62.0,30.8
+14696,2013,7,26,Pakistan,Parachinar,33.899273,70.100484,Bombing/Explosion,30.5,75.5,48.5
+14697,2013,7,26,Pakistan,Parachinar,33.899273,70.100484,Bombing/Explosion,30.5,75.5,48.5
+14704,2013,7,26,Philippines,Cagayan de Oro,8.454236,124.631898,Bombing/Explosion,8.0,40.0,20.8
+14929,2013,8,1,Syria,Homs,34.731738,36.717628,Bombing/Explosion,40.0,160.0,88.0
+15112,2013,8,6,Syria,Damascus,33.483333,36.35,Bombing/Explosion,18.0,56.0,33.2
+15214,2013,8,8,Pakistan,Quetta,30.205674,67.010314,Bombing/Explosion,39.0,50.0,43.4
+15250,2013,8,10,Iraq,Tuz Khormato,34.883537,44.63419,Bombing/Explosion,9.0,40.0,21.4
+15327,2013,8,12,Iraq,Balad,34.016242,44.14477,Bombing/Explosion,17.0,25.0,20.2
+15414,2013,8,15,Lebanon,Beirut,33.888629,35.495479,Bombing/Explosion,30.0,300.0,138.0
+15660,2013,8,23,Lebanon,Tripoli,34.438062,35.830744,Bombing/Explosion,23.5,150.0,74.1
+15661,2013,8,23,Lebanon,Tripoli,34.438062,35.830744,Bombing/Explosion,23.5,150.0,74.1
+15670,2013,8,23,Iraq,Baghdad,33.38039,44.396646,Bombing/Explosion,26.0,50.0,35.6
+15725,2013,8,25,Iraq,Baqubah,33.748608,44.628128,Bombing/Explosion,11.0,34.0,20.200000000000003
+15836,2013,8,28,Afghanistan,Unknown,33.498229,67.761598,Bombing/Explosion,8.0,62.0,29.6
+16171,2013,9,8,Afghanistan,Maydan Shahr,34.367244,68.840275,Bombing/Explosion,10.0,150.0,66.0
+16277,2013,9,11,Iraq,Baghdad,33.361556,44.382062,Bombing/Explosion,17.0,27.5,21.2
+16372,2013,9,14,Iraq,Baashiqah,36.451707,43.342042,Bombing/Explosion,27.0,35.0,30.2
+16597,2013,9,20,Yemen,Azzan,14.325436,47.446588,Bombing/Explosion,39.0,20.0,31.4
+16624,2013,9,21,Iraq,Baghdad,33.387306,44.45784,Bombing/Explosion,22.0,40.0,29.2
+16625,2013,9,21,Iraq,Baghdad,33.387306,44.45784,Bombing/Explosion,23.0,40.0,29.799999999999997
+16626,2013,9,21,Iraq,Baghdad,33.322496,44.393295,Bombing/Explosion,22.0,40.0,29.2
+16642,2013,9,22,Pakistan,Peshawar,34.00372,71.544288,Bombing/Explosion,87.0,131.0,104.6
+16645,2013,9,22,Iraq,Baghdad,33.251389,44.391944,Bombing/Explosion,17.0,35.0,24.2
+16755,2013,9,26,Iraq,Saba al-Bor,33.463272,44.158197,Bombing/Explosion,15.0,70.0,37.0
+16777,2013,9,27,Pakistan,Peshawar,34.00372,71.544288,Bombing/Explosion,17.0,33.0,23.4
+16784,2013,9,27,Syria,Rankus,33.756418,36.392019,Bombing/Explosion,30.0,24.0,27.6
+16847,2013,9,29,Pakistan,Peshawar,34.00372,71.544288,Bombing/Explosion,43.0,101.0,66.2
+16848,2013,9,29,Iraq,Musayyib,32.77578,44.300991,Bombing/Explosion,41.0,50.0,44.599999999999994
+17035,2013,10,5,Iraq,Baghdad,33.325,44.422,Bombing/Explosion,43.0,75.0,55.8
+17036,2013,10,5,Iraq,Balad,34.019941,44.145098,Bombing/Explosion,12.0,35.0,21.2
+17467,2013,10,17,Iraq,Mosul,36.341501,43.137222,Bombing/Explosion,18.0,66.0,37.2
+17517,2013,10,19,Somalia,Beledweyne,4.735972,45.203972,Bombing/Explosion,16.0,33.0,22.8
+17551,2013,10,20,Syria,Hamah,35.13781,36.752449,Bombing/Explosion,31.0,24.0,28.2
+17737,2013,10,25,Syria,Suq Wadi Barada,33.625,36.108056,Bombing/Explosion,40.0,24.0,33.6
+18261,2013,11,6,Syria,Suwayda,32.706268,36.566071,Bombing/Explosion,9.0,41.0,21.8
+18262,2013,11,6,Syria,Damascus,33.510377,36.298184,Bombing/Explosion,8.0,50.0,24.8
+18294,2013,11,7,Iraq,Tarmiyah,33.664354,44.373779,Bombing/Explosion,18.0,39.0,26.4
+18334,2013,11,8,Iraq,Mosul,36.34,43.13,Bombing/Explosion,10.0,58.0,29.200000000000003
+18566,2013,11,14,Iraq,Sadiyah,34.184081,45.119848,Bombing/Explosion,33.0,80.0,51.8
+18770,2013,11,19,Lebanon,Mount Lebanon,33.855875,35.489346,Bombing/Explosion,14.0,75.5,38.6
+18771,2013,11,19,Lebanon,Mount Lebanon,33.855875,35.489346,Bombing/Explosion,14.0,75.5,38.6
+18807,2013,11,20,Egypt,Unknown,30.699335,33.644714,Bombing/Explosion,11.0,35.0,20.6
+18865,2013,11,21,Iraq,Unknown,33.773349,45.14945,Bombing/Explosion,25.0,45.0,33.0
+19084,2013,11,26,Syria,Damascus,33.5111,36.3064,Bombing/Explosion,16.0,31.0,22.0
+19424,2013,12,4,Iraq,Kirkuk,35.46883,44.39098,Bombing/Explosion,11.0,75.0,36.6
+19470,2013,12,5,Yemen,Sanaa,15.352397,44.206817,Bombing/Explosion,68.0,215.0,126.8
+19474,2013,12,5,Somalia,Bosaso,11.283333,49.183333,Bombing/Explosion,10.0,37.0,20.8
+19842,2013,12,16,Iraq,Rasheed,33.114406,44.369488,Bombing/Explosion,24.0,55.0,36.4
+19987,2013,12,19,Iraq,Baghdad,33.325,44.422,Bombing/Explosion,15.0,28.0,20.200000000000003
+20154,2013,12,24,Egypt,Mansoura,31.039309,31.379664,Bombing/Explosion,16.0,130.0,61.6
+20205,2013,12,25,Iraq,Baghdad,33.325,44.422,Bombing/Explosion,26.0,30.0,27.6
+20207,2013,12,25,Iraq,Baghdad,33.325,44.422,Bombing/Explosion,14.0,30.0,20.4
+20244,2013,12,26,Iraq,Baghdad,33.298338,44.244649,Bombing/Explosion,3.0,50.0,21.8
+20275,2013,12,27,Lebanon,Mount Lebanon,33.838728,35.530011,Bombing/Explosion,8.0,71.0,33.2
+20339,2013,12,29,Russia,Volgograd,48.7,44.516667,Bombing/Explosion,19.0,35.0,25.4
+20398,2013,12,30,Russia,Volgograd,48.7,44.516667,Bombing/Explosion,17.0,28.0,21.4
+20534,2014,1,2,Iraq,Balad Ruz,33.7,45.083333,Bombing/Explosion,16.0,30.0,21.6
+20544,2014,1,2,Lebanon,Haret Hraik,33.852028,35.515373,Bombing/Explosion,6.0,66.0,30.0
+20794,2014,1,7,Iraq,Kirkuk,35.477726,44.392952,Bombing/Explosion,4.0,57.0,25.2
+20857,2014,1,9,Nigeria,Damboa,11.15782,12.76046,Bombing/Explosion,39.0,2.0,24.2
+20859,2014,1,9,Iraq,Baghdad,33.334622,44.362472,Bombing/Explosion,24.0,24.0,24.0
+20863,2014,1,9,Syria,Kaffat,35.068056,36.888889,Bombing/Explosion,18.0,24.0,20.4
+21123,2014,1,16,Lebanon,Hermel,34.397052,36.387171,Bombing/Explosion,7.0,41.0,20.6
+21124,2014,1,16,Colombia,Pradera,3.418666,-76.241882,Bombing/Explosion,1.0,61.0,25.000000000000004
+21127,2014,1,16,Pakistan,Peshawar,34.011119,71.574157,Bombing/Explosion,8.0,61.0,29.200000000000003
+21280,2014,1,19,Pakistan,Bannu,32.986111,70.604167,Bombing/Explosion,25.0,27.0,25.8
+21352,2014,1,21,Pakistan,Mastung district,29.408737,67.189449,Bombing/Explosion,30.0,31.0,30.4
+21472,2014,1,24,Egypt,Cairo,30.05,31.233333,Bombing/Explosion,4.0,70.0,30.4
+22012,2014,2,4,Pakistan,Peshawar,34.007989,71.572441,Bombing/Explosion,10.0,50.0,26.0
+22381,2014,2,13,Pakistan,Karachi,24.852952,67.267471,Bombing/Explosion,14.0,36.0,22.8
+22685,2014,2,19,Lebanon,Beirut,33.867926,35.491021,Bombing/Explosion,6.5,64.0,29.5
+22686,2014,2,19,Lebanon,Beirut,33.867926,35.491021,Bombing/Explosion,6.5,64.0,29.5
+22758,2014,2,20,Syria,Salameh,36.617801,37.07654,Bombing/Explosion,16.0,44.0,27.200000000000003
+22907,2014,2,23,Syria,Atmeh,36.308762,36.689529,Bombing/Explosion,14.0,65.0,34.4
+22978,2014,2,23,Syria,Unknown,,,Bombing/Explosion,12.0,65.0,33.2
+23039,2014,2,25,Afghanistan,Tarin Kot,32.626994,65.877413,Bombing/Explosion,8.0,42.0,21.6
+23041,2014,2,25,Iraq,Baghdad,33.298668,44.422789,Bombing/Explosion,14.0,36.0,22.8
+23187,2014,2,27,Iraq,Baghdad,33.390961,44.459253,Bombing/Explosion,31.0,51.0,39.0
+23680,2014,3,9,Iraq,Hillah,32.49554,44.422196,Bombing/Explosion,51.0,153.0,91.8
+23912,2014,3,14,Pakistan,Saraband,33.937936,71.484983,Bombing/Explosion,13.0,50.0,27.8
+24074,2014,3,18,Afghanistan,Maymana,35.915304,64.750752,Bombing/Explosion,18.0,48.0,30.0
+24153,2014,3,19,Iraq,Baghdad,33.332112,44.346122,Bombing/Explosion,14.0,40.0,24.4
+25104,2014,4,8,Pakistan,Sibi,29.547091,67.869876,Bombing/Explosion,17.0,35.0,24.2
+25157,2014,4,9,Pakistan,Islamabad,33.729476,73.09317,Bombing/Explosion,21.0,46.0,31.0
+25187,2014,4,9,Syria,Homs,34.711944,36.725278,Bombing/Explosion,12.5,53.5,28.900000000000002
+25305,2014,4,9,Syria,Homs,34.711944,36.725278,Bombing/Explosion,12.5,53.5,28.900000000000002
+25448,2014,4,14,Nigeria,Abuja,9.066559,7.483589,Bombing/Explosion,71.0,124.0,92.2
+25899,2014,4,23,Iraq,Bashiqah,36.433691,43.27508,Bombing/Explosion,8.0,45.0,22.8
+26003,2014,4,25,Iraq,Baghdad,33.324926,44.421497,Bombing/Explosion,26.0,24.0,25.200000000000003
+26050,2014,4,27,Iraq,Baghdad,33.386673,44.459913,Bombing/Explosion,10.0,36.0,20.4
+26085,2014,4,28,Iraq,Khanaqin,34.331429,45.383084,Bombing/Explosion,31.0,50.0,38.599999999999994
+26185,2014,4,29,Syria,Damascus,33.50281,36.305782,Bombing/Explosion,14.0,86.0,42.8
+26207,2014,4,30,China,Urumqi,43.825427,87.617762,Bombing/Explosion,3.0,79.0,33.4
+26231,2014,5,1,Nigeria,Nyanya,9.006931,7.566801,Bombing/Explosion,19.0,66.0,37.800000000000004
+26304,2014,5,2,Syria,Jibrin,34.950951,36.583648,Bombing/Explosion,18.0,50.0,30.799999999999997
+27024,2014,5,15,Syria,As Salameh,36.617936,37.077466,Bombing/Explosion,43.0,81.0,58.2
+27050,2014,5,16,Kenya,Nairobi,-1.290063,36.82181,Bombing/Explosion,10.0,70.0,34.0
+27276,2014,5,20,Nigeria,Jos,9.933333,8.883333,Bombing/Explosion,59.0,22.5,44.4
+27277,2014,5,20,Nigeria,Jos,9.933333,8.883333,Bombing/Explosion,59.0,22.5,44.4
+27347,2014,5,22,Syria,Daraa,32.618035,36.107512,Bombing/Explosion,37.0,24.0,31.8
+27351,2014,5,22,China,Urumqi,43.825592,87.616848,Bombing/Explosion,36.0,94.0,59.2
+27668,2014,5,27,Iraq,Baghdad,33.33928,44.40047,Bombing/Explosion,21.0,32.0,25.4
+27716,2014,5,28,Iraq,Baghdad,33.380993,44.344738,Bombing/Explosion,16.0,52.0,30.4
+27956,2014,6,2,Libya,Benghazi,32.087818,20.26583,Bombing/Explosion,21.0,112.0,57.400000000000006
+28021,2014,6,4,Iraq,Hillah,32.483333,44.433333,Bombing/Explosion,8.0,58.0,28.000000000000004
+28207,2014,6,8,Pakistan,Karachi,24.900203,67.168157,Bombing/Explosion,38.0,22.0,31.6
+28277,2014,6,9,Iraq,Tuz Khormato,34.880962,44.620764,Bombing/Explosion,16.0,92.5,46.6
+28278,2014,6,9,Iraq,Tuz Khormato,34.880962,44.620764,Bombing/Explosion,15.0,92.5,46.0
+28348,2014,6,10,Iraq,Baqubah,33.750106,44.633842,Bombing/Explosion,29.0,32.0,30.2
+28394,2014,6,11,Iraq,Baghdad,33.381125,44.345039,Bombing/Explosion,20.0,49.0,31.6
+28395,2014,6,11,Iraq,Baghdad,33.384285,44.449448,Bombing/Explosion,16.0,34.0,23.200000000000003
+28647,2014,6,15,Iraq,Tal Afar,36.376869,42.456504,Bombing/Explosion,28.0,35.0,30.8
+28719,2014,6,17,Nigeria,Damaturu,11.744512,11.961065,Bombing/Explosion,21.0,27.0,23.4
+28724,2014,6,17,Iraq,Baqubah,33.743465,44.610185,Bombing/Explosion,63.0,6.0,40.199999999999996
+29044,2014,6,25,Nigeria,Abuja,9.066602,7.484407,Bombing/Explosion,23.0,51.0,34.2
+29099,2014,6,26,Iraq,Baghdad,33.381125,44.345039,Bombing/Explosion,20.0,41.0,28.400000000000002
+29285,2014,7,1,Nigeria,Maiduguri,11.833262,13.149952,Bombing/Explosion,56.0,69.0,61.2
+29747,2014,7,9,Afghanistan,Kandahar,31.615421,65.68516,Bombing/Explosion,31.0,9.0,22.2
+29854,2014,7,11,Iraq,Kirkuk,35.435909,44.382034,Bombing/Explosion,19.0,25.0,21.4
+29873,2014,7,11,Ukraine,Zelenopolye,47.915095,39.488847,Bombing/Explosion,19.0,93.0,48.6
+30116,2014,7,15,Afghanistan,Urgun,32.941339,69.17551,Bombing/Explosion,43.0,67.0,52.6
+30118,2014,7,15,Afghanistan,Khost,33.333056,69.916944,Bombing/Explosion,48.0,6.0,31.199999999999996
+30251,2014,7,17,Ukraine,Hrabove,48.139156,38.639335,Bombing/Explosion,298.0,0.0,178.79999999999998
+30534,2014,7,22,Iraq,Baghdad,33.381125,44.345039,Bombing/Explosion,34.0,52.0,41.2
+30642,2014,7,24,Iraq,Taji,33.535741,44.239685,Bombing/Explosion,60.0,15.0,42.0
+30720,2014,7,26,Syria,Atimah,36.307945,36.687732,Bombing/Explosion,40.0,60.0,48.0
+30955,2014,7,30,Iraq,Baghdad,33.389934,44.460652,Bombing/Explosion,15.0,28.0,20.200000000000003
+31264,2014,8,6,Iraq,Baghdad,33.38989,44.46081,Bombing/Explosion,16.0,34.0,23.200000000000003
+31271,2014,8,6,Syria,Damascus,33.503056,36.258333,Bombing/Explosion,16.0,79.0,41.2
+31468,2014,8,11,Iraq,Jalula,34.273644,45.165584,Bombing/Explosion,11.0,80.0,38.6
+31510,2014,8,12,Iraq,Baghdad,33.298749,44.4229,Bombing/Explosion,10.0,43.0,23.2
+31674,2014,8,15,Syria,Namar,33.02759,36.029526,Bombing/Explosion,14.0,30.0,20.4
+31885,2014,8,21,Iraq,Baghdad,33.387489,44.411016,Bombing/Explosion,9.0,38.0,20.6
+31978,2014,8,22,Iraq,Imam Weis,33.650227,44.64407,Bombing/Explosion,35.0,35.0,35.0
+32005,2014,8,23,Syria,Unknown,35.958808,38.999399,Bombing/Explosion,14.0,150.0,68.4
+32288,2014,8,30,Afghanistan,Jalalabad,34.434232,70.44754,Bombing/Explosion,12.0,45.0,25.2
+32462,2014,9,4,Afghanistan,Ghazni,33.54989,68.416974,Bombing/Explosion,13.0,116.66,54.464
+32498,2014,9,4,Afghanistan,Ghazni,33.54989,68.416711,Bombing/Explosion,13.0,116.67,54.468
+32499,2014,9,4,Afghanistan,Ghazni,33.54989,68.416711,Bombing/Explosion,13.0,116.67,54.468
+32611,2014,9,8,Iraq,Dhuluiya,34.055475,44.221293,Bombing/Explosion,17.0,170.0,78.2
+32699,2014,9,10,Iraq,Baghdad,33.30533,44.488947,Bombing/Explosion,14.0,35.0,22.4
+33011,2014,9,17,Nigeria,Kano,12.001128,8.517191,Bombing/Explosion,17.0,34.0,23.8
+33299,2014,9,23,Iraq,Baghdad,33.389861,44.460039,Bombing/Explosion,14.0,67.0,35.2
+33511,2014,9,28,Yemen,Majzar,15.8275,44.793889,Bombing/Explosion,16.0,51.0,30.0
+33610,2014,9,29,Ukraine,Donetsk,48.069965,37.742388,Bombing/Explosion,18.0,30.0,22.799999999999997
+33645,2014,10,2,Libya,Benghazi,32.116049,20.071231,Bombing/Explosion,9.0,52.0,26.2
+33673,2014,10,1,Iraq,Baghdad,33.325,44.422,Bombing/Explosion,12.0,40.0,23.2
+33716,2014,10,2,Iraq,Hit,33.634102,42.831047,Bombing/Explosion,34.0,12.0,25.2
+33898,2014,10,7,Iraq,Baghdad,33.321899,44.486568,Bombing/Explosion,13.0,31.0,20.2
+33991,2014,10,9,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,46.0,150.0,87.6
+34093,2014,10,11,Iraq,Baghdad,33.370243,44.278691,Bombing/Explosion,18.0,28.0,22.0
+34101,2014,10,11,Libya,Kikla,32.066463,12.694044,Bombing/Explosion,21.0,43.0,29.799999999999997
+34213,2014,10,14,Iraq,Baghdad,33.381146,44.34494,Bombing/Explosion,26.0,51.0,36.0
+34397,2014,10,17,Iraq,Mosul,36.340581,43.140452,Bombing/Explosion,20.0,30.0,24.0
+34448,2014,10,19,Iraq,Baghdad,33.305117,44.37337,Bombing/Explosion,17.0,28.0,21.4
+34512,2014,10,21,Iraq,Baghdad,33.387476,44.411096,Bombing/Explosion,7.0,40.0,20.2
+34562,2014,10,22,Iraq,Baghdad,33.389806,44.460674,Bombing/Explosion,9.0,37.0,20.2
+34643,2014,10,24,Egypt,Karm al-Qawadis,30.886219,34.076081,Bombing/Explosion,34.0,28.0,31.6
+34769,2014,10,27,Iraq,Jurf al-Sakhar,32.866677,44.213887,Bombing/Explosion,22.0,24.0,22.8
+34978,2014,11,1,Iraq,Baghdad,33.251389,44.391944,Bombing/Explosion,21.0,53.0,33.800000000000004
+35013,2014,11,2,Pakistan,Wagah,31.590166,74.575894,Bombing/Explosion,62.0,110.0,81.19999999999999
+35101,2014,11,3,Nigeria,Potiskum,11.707258,11.081768,Bombing/Explosion,31.0,119.0,66.2
+35361,2014,11,10,Nigeria,Potiskum,11.707258,11.081768,Bombing/Explosion,48.0,79.0,60.4
+35624,2014,11,16,Nigeria,Azare,11.674167,10.191111,Bombing/Explosion,11.0,60.0,30.6
+35871,2014,11,23,Afghanistan,Yahya Khel district,32.937172,68.647247,Bombing/Explosion,58.0,66.0,61.2
+35955,2014,11,25,Nigeria,Maiduguri,11.833333,13.15,Bombing/Explosion,65.0,98.0,78.2
+36031,2014,11,27,Nigeria,Marabar-Mubi,10.34782,13.325363,Bombing/Explosion,40.0,7.0,26.8
+36075,2014,11,28,Nigeria,Kano,12.0,8.516667,Bombing/Explosion,122.0,270.0,181.2
+37029,2014,12,24,Iraq,Madain,33.099945,44.583278,Bombing/Explosion,45.0,62.0,51.8
+37204,2014,12,29,Iraq,Taji,33.538393,44.259514,Bombing/Explosion,22.0,63.0,38.400000000000006
+37282,2014,12,31,Yemen,Ibb,13.967151,44.165426,Bombing/Explosion,50.0,70.0,58.0
+37387,2015,1,2,Iraq,Fallujah,33.349906,43.783288,Bombing/Explosion,20.0,30.0,24.0
+37559,2015,1,6,Iraq,Jubah,33.907614,42.543028,Bombing/Explosion,25.0,21.0,23.4
+37578,2015,1,7,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,38.0,66.0,49.2
+37736,2015,1,10,Lebanon,Tripoli,34.443955,35.854032,Bombing/Explosion,11.0,36.0,21.0
+38158,2015,1,18,Nigeria,Potiskum,11.709427,11.096525,Bombing/Explosion,5.0,48.0,22.200000000000003
+38176,2015,1,19,Ukraine,Donetsk,48.068967,37.743035,Bombing/Explosion,11.0,57.0,29.4
+38386,2015,1,23,Philippines,Zamboanga City,6.928028,122.094939,Bombing/Explosion,2.0,52.0,22.0
+38450,2015,1,24,Ukraine,Mariupol,47.096943,37.549251,Bombing/Explosion,30.0,95.0,56.0
+38691,2015,1,29,Egypt,Arish,31.132112,33.803321,Bombing/Explosion,25.0,58.0,38.2
+38699,2015,1,29,Afghanistan,Mihtarlam,34.674256,70.211068,Bombing/Explosion,17.0,39.0,25.8
+38743,2015,1,30,Pakistan,Shikarpur district,27.956944,68.637778,Bombing/Explosion,62.0,46.0,55.599999999999994
+38755,2015,1,29,Cameroon,Fotokol,12.377705,14.22506,Bombing/Explosion,126.0,12.0,80.39999999999999
+38834,2015,1,31,Iraq,Fallujah,33.349906,43.783288,Bombing/Explosion,5.0,44.0,20.6
+38893,2015,2,1,Ukraine,Debaltseve,48.334617,38.401809,Bombing/Explosion,20.0,53.0,33.2
+39160,2015,2,7,Iraq,Baghdad,33.304969,44.489036,Bombing/Explosion,31.0,66.0,45.0
+39239,2015,2,9,Iraq,Baghdad,33.381183,44.34494,Bombing/Explosion,19.0,42.0,28.200000000000003
+39379,2015,2,11,Ukraine,Debaltseve,48.333257,38.400034,Bombing/Explosion,19.0,78.0,42.6
+39477,2015,2,13,Pakistan,Hayatabad,33.993364,71.437996,Bombing/Explosion,24.0,50.0,34.4
+39808,2015,2,20,Somalia,Mogadishu,2.032623,45.340469,Bombing/Explosion,34.0,58.0,43.6
+40123,2015,2,28,Iraq,Balad Ruz district,33.699554,45.083422,Bombing/Explosion,11.0,42.0,23.4
+40687,2015,3,15,Pakistan,Lahore,31.410962,74.363412,Bombing/Explosion,11.0,35.0,20.6
+40711,2015,3,15,Iraq,Ramadi,33.416667,43.3,Bombing/Explosion,4.0,51.0,22.8
+40802,2015,3,18,Afghanistan,Lashkar Gah,31.583044,64.369167,Bombing/Explosion,8.0,41.0,21.200000000000003
+40869,2015,3,20,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,39.0,87.0,58.2
+40870,2015,3,20,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,39.0,87.0,58.2
+40871,2015,3,20,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,40.0,88.0,59.2
+40872,2015,3,20,Yemen,Sanaa,15.355873,44.213536,Bombing/Explosion,40.0,88.0,59.2
+40879,2015,3,20,Syria,Hasakah,36.518134,40.7488,Bombing/Explosion,25.0,89.0,50.6
+40880,2015,3,20,Syria,Hasakah,36.518134,40.7488,Bombing/Explosion,25.0,88.0,50.2
+41366,2015,4,2,Afghanistan,Khost,33.337033,69.918544,Bombing/Explosion,21.0,64.0,38.2
+41514,2015,4,5,Nigeria,Kwajaffa,10.484913,12.380308,Bombing/Explosion,25.0,30.0,27.0
+41612,2015,4,8,Yemen,Aden,12.789572,45.006995,Bombing/Explosion,11.0,35.0,20.6
+41613,2015,4,8,Yemen,Aden,12.775278,45.041111,Bombing/Explosion,11.0,35.0,20.6
+41722,2015,4,12,Egypt,Arish,31.131088,33.802708,Bombing/Explosion,7.0,44.0,21.8
+41985,2015,4,18,Afghanistan,Jalalabad,34.429836,70.447395,Bombing/Explosion,34.0,100.0,60.4
+42010,2015,4,18,South Sudan,Juba,4.846851,31.581367,Bombing/Explosion,10.0,40.0,22.0
+42768,2015,5,6,Yemen,Aden,12.787191,44.983678,Bombing/Explosion,86.0,67.0,78.4
+42867,2015,5,9,Iraq,Khalis,33.843044,44.521936,Bombing/Explosion,36.0,14.0,27.2
+43026,2015,5,13,Yemen,Taizz,13.578889,44.021944,Bombing/Explosion,9.0,40.0,21.4
+43169,2015,5,16,Iraq,Fallujah,33.35,43.783333,Bombing/Explosion,37.0,20.0,30.2
+43389,2015,5,22,Saudi Arabia,Qatif,26.569727,49.985409,Bombing/Explosion,23.0,100.0,53.8
+43525,2015,5,25,Afghanistan,Qalat,32.106111,66.906944,Bombing/Explosion,5.0,73.0,32.2
+43549,2015,5,25,Yemen,Masabah,13.574698,44.010392,Bombing/Explosion,13.0,60.0,31.8
+43751,2015,5,30,Nigeria,Maiduguri,11.830475,13.159667,Bombing/Explosion,27.0,28.0,27.4
+43845,2015,6,1,Iraq,Tharthar,33.678926,43.465862,Bombing/Explosion,39.0,25.0,33.4
+43880,2015,6,2,Nigeria,Maiduguri,11.831098,13.150967,Bombing/Explosion,51.0,25.0,40.599999999999994
+43959,2015,6,4,Nigeria,Yola,9.203496,12.49539,Bombing/Explosion,47.0,40.0,44.2
+43991,2015,6,5,Turkey,Diyarbakir,37.924973,40.210983,Bombing/Explosion,2.0,50.0,21.2
+43992,2015,6,5,Turkey,Diyarbakir,37.924973,40.210983,Bombing/Explosion,2.0,51.0,21.6
+44007,2015,6,6,Iraq,Balad Ruz district,33.695694,45.067169,Bombing/Explosion,15.0,37.0,23.8
+44116,2015,6,8,Pakistan,Datta Khel,33.150724,70.43233,Bombing/Explosion,27.0,14.0,21.8
+44304,2015,6,13,Iraq,Karma,33.404852,43.918597,Bombing/Explosion,22.0,25.0,23.2
+44360,2015,6,15,Chad,N'Djamena,12.089724,15.06776,Bombing/Explosion,19.0,51.0,31.800000000000004
+44361,2015,6,15,Chad,N'Djamena,12.112509,15.033817,Bombing/Explosion,18.0,50.0,30.799999999999997
+44666,2015,6,22,Nigeria,Maiduguri,11.831098,13.150967,Bombing/Explosion,22.0,50.0,33.2
+44771,2015,6,25,Yemen,Aden,12.802001,45.034551,Bombing/Explosion,7.0,94.0,41.800000000000004
+44773,2015,6,25,Syria,Kobani,36.899389,38.349653,Bombing/Explosion,174.0,201.0,184.8
+44776,2015,6,25,Iraq,Fallujah,33.35,43.783333,Bombing/Explosion,20.0,30.0,24.0
+44791,2015,6,26,Kuwait,Kuwait,29.374481,47.980266,Bombing/Explosion,28.0,227.0,107.60000000000001
+44922,2015,6,29,Yemen,Sanaa,15.352917,44.204576,Bombing/Explosion,28.0,20.0,24.8
+44951,2015,6,30,Afghanistan,Lashkar Gah,31.599043,64.375836,Bombing/Explosion,4.0,51.0,22.8
+45002,2015,7,1,Yemen,Aden,12.856511,44.988342,Bombing/Explosion,31.0,101.0,59.0
+45102,2015,7,3,Nigeria,Zabarmari,11.831098,13.150967,Bombing/Explosion,13.0,101.0,48.2
+45185,2015,7,4,Yemen,Aden,12.856864,44.988563,Bombing/Explosion,35.0,24.0,30.6
+45195,2015,7,5,Iraq,Hadithah,34.207171,42.354827,Bombing/Explosion,33.0,16.0,26.200000000000003
+45199,2015,7,5,Nigeria,Jos,9.933333,8.883333,Bombing/Explosion,25.0,34.0,28.6
+45281,2015,7,7,Nigeria,Zaria,11.066584,7.699986,Bombing/Explosion,26.0,32.0,28.4
+45440,2015,7,11,Yemen,Ad Dabab district,13.555278,43.962778,Bombing/Explosion,7.0,54.0,25.8
+45447,2015,7,11,Chad,N'Djamena,12.113056,15.049167,Bombing/Explosion,16.0,80.0,41.6
+45499,2015,7,12,Iraq,Gavara,36.322392,41.860499,Bombing/Explosion,41.0,40.0,40.599999999999994
+45512,2015,7,12,Afghanistan,Khost,33.339017,69.959119,Bombing/Explosion,34.0,23.0,29.6
+45624,2015,7,15,Yemen,Taizz,13.578889,44.021944,Bombing/Explosion,11.0,50.0,26.6
+45676,2015,7,16,Nigeria,Gombe,10.279142,11.173062,Bombing/Explosion,25.0,16.0,21.4
+45677,2015,7,16,Nigeria,Gombe,10.279142,11.173062,Bombing/Explosion,25.0,15.0,21.0
+45733,2015,7,17,Iraq,Bani Saad,33.571857,44.544569,Bombing/Explosion,121.0,130.0,124.6
+45752,2015,7,19,Yemen,Shaykh Uthman,12.894405,44.98601,Bombing/Explosion,43.0,120.0,73.8
+45779,2015,7,20,Turkey,Suruc,36.97512,38.424287,Bombing/Explosion,34.0,101.0,60.800000000000004
+45841,2015,7,21,Syria,Kafrayah,35.990637,36.677702,Bombing/Explosion,3.0,100.0,41.8
+45842,2015,7,21,Syria,Fuah,35.982007,36.705582,Bombing/Explosion,4.0,100.0,42.4
+45860,2015,7,21,Iraq,Fallujah,33.365916,43.770322,Bombing/Explosion,18.0,34.0,24.4
+45882,2015,7,22,Afghanistan,Almar district,35.8464,64.5333,Bombing/Explosion,20.0,30.0,24.0
+45898,2015,7,22,Iraq,Baghdad,33.429154,44.398701,Bombing/Explosion,16.0,32.0,22.4
+45899,2015,7,22,Iraq,Baghdad,33.269957,44.345763,Bombing/Explosion,18.0,48.0,30.0
+45901,2015,7,22,Iraq,Karma,33.402381,43.911811,Bombing/Explosion,24.0,24.0,24.0
+45938,2015,7,23,Iraq,Fallujah,33.366513,43.779827,Bombing/Explosion,57.0,53.0,55.4
+45939,2015,7,23,Iraq,Fallujah,33.354051,43.845054,Bombing/Explosion,58.0,53.0,56.0
+45991,2015,7,25,Cameroon,Maroua,10.592529,14.321009,Bombing/Explosion,22.0,67.0,40.0
+46033,2015,7,26,Somalia,Mogadishu,2.022389,45.304763,Bombing/Explosion,18.0,41.0,27.200000000000003
+46062,2015,7,26,Nigeria,Damaturu,11.747224,11.966177,Bombing/Explosion,20.0,47.0,30.8
+46085,2015,7,27,Yemen,Al-Anad,13.210556,44.785,Bombing/Explosion,11.0,35.0,20.6
+46508,2015,8,7,Afghanistan,Kabul,34.527578,69.174886,Bombing/Explosion,16.0,400.0,169.6
+46509,2015,8,7,Afghanistan,Kabul,34.526942,69.100806,Bombing/Explosion,26.0,25.0,25.6
+46555,2015,8,8,Afghanistan,Bandar-i-Shurab,36.681449,69.114905,Bombing/Explosion,23.0,19.0,21.4
+46616,2015,8,10,Iraq,Huwaydir,33.770833,44.625556,Bombing/Explosion,52.0,80.0,63.2
+46642,2015,8,10,Ukraine,Starohnativka,47.539638,37.776423,Bombing/Explosion,143.0,30.0,97.8
+46684,2015,8,11,Nigeria,Sabon Gari,10.592003,12.207662,Bombing/Explosion,48.0,52.0,49.599999999999994
+46755,2015,8,13,Iraq,Baghdad,33.376592,44.42526,Bombing/Explosion,68.0,152.0,101.6
+46915,2015,8,17,Thailand,Bangkok,13.74444,100.54056,Bombing/Explosion,20.0,123.0,61.2
+46985,2015,8,19,Yemen,Taizz,13.573888,44.019927,Bombing/Explosion,11.0,36.0,21.0
+47019,2015,8,19,Syria,Harasta,33.558338,36.36606,Bombing/Explosion,30.0,20.0,26.0
+47101,2015,8,22,Afghanistan,Kabul,34.527738,69.205217,Bombing/Explosion,13.0,61.0,32.2
+47103,2015,8,22,Somalia,Kismayo,-0.355837,42.54777,Bombing/Explosion,27.0,30.0,28.2
+47585,2015,9,2,Yemen,Sanaa,15.371778,44.197184,Bombing/Explosion,17.0,46.0,28.6
+47586,2015,9,2,Yemen,Sanaa,15.371778,44.197184,Bombing/Explosion,16.0,46.0,28.0
+47617,2015,9,3,Cameroon,Kerawa,11.184199,13.914285,Bombing/Explosion,22.0,72.0,42.0
+47618,2015,9,3,Cameroon,Kerawa,11.184199,13.914285,Bombing/Explosion,22.0,71.0,41.6
+47645,2015,9,4,Nigeria,Kirawa,11.185278,13.884167,Bombing/Explosion,48.0,101.0,69.2
+47656,2015,9,4,Yemen,Safer,15.566652,45.787139,Bombing/Explosion,50.0,70.0,58.0
+47778,2015,9,9,Syria,Unknown,35.28798,40.308863,Bombing/Explosion,54.0,50.0,52.4
+47992,2015,9,13,Pakistan,Multan,30.174344,71.508834,Bombing/Explosion,11.0,59.0,30.200000000000003
+48051,2015,9,14,Syria,Hasakah,36.503919,40.746153,Bombing/Explosion,14.0,35.0,22.4
+48073,2015,9,14,Syria,Hasakah,36.507867,40.746267,Bombing/Explosion,14.0,35.0,22.4
+48192,2015,9,18,Pakistan,Badaber,33.957536,71.573933,Bombing/Explosion,42.0,22.0,34.0
+48292,2015,9,20,Nigeria,Maiduguri,11.831976,13.151388,Bombing/Explosion,19.0,30.0,23.4
+48293,2015,9,20,Nigeria,Maiduguri,11.831976,13.151388,Bombing/Explosion,18.0,30.0,22.799999999999997
+48294,2015,9,20,Nigeria,Monguno,12.672892,13.615985,Bombing/Explosion,28.0,62.0,41.6
+48295,2015,9,20,Nigeria,Maiduguri,11.831976,13.151388,Bombing/Explosion,19.0,30.0,23.4
+48328,2015,9,21,Iraq,Baghdad,33.314006,44.506622,Bombing/Explosion,11.0,39.0,22.200000000000003
+48426,2015,9,24,Yemen,Sanaa,15.369445,44.191007,Bombing/Explosion,16.0,46.0,28.0
+48427,2015,9,24,Yemen,Sanaa,15.367245,44.185074,Bombing/Explosion,16.0,46.0,28.0
+48670,2015,10,3,Iraq,Baghdad,33.362183,44.334987,Bombing/Explosion,12.0,37.0,22.0
+48780,2015,10,4,South Sudan,Unknown,8.927721,29.788925,Bombing/Explosion,52.0,42.0,48.0
+48785,2015,10,5,Iraq,Khalis,33.843044,44.521936,Bombing/Explosion,41.0,58.0,47.8
+48865,2015,10,7,Nigeria,Goniri,11.48354,12.317756,Bombing/Explosion,108.0,9.0,68.39999999999999
+48921,2015,10,8,Syria,Haritan,36.286835,37.083084,Bombing/Explosion,21.0,24.0,22.200000000000003
+48987,2015,10,10,Turkey,Ankara,39.933369,32.845471,Bombing/Explosion,105.0,245.0,161.0
+48995,2015,10,10,Chad,Baga Sola,13.533583,14.317183,Bombing/Explosion,17.0,42.0,27.0
+49079,2015,10,12,Afghanistan,Ghazni,33.545979,68.416328,Bombing/Explosion,100.0,51.0,80.4
+49507,2015,10,23,Libya,Benghazi,32.116462,20.066807,Bombing/Explosion,12.0,39.0,22.8
+49508,2015,10,23,Pakistan,Jacobabad,28.282935,68.436488,Bombing/Explosion,28.0,19.0,24.400000000000002
+49528,2015,10,23,Nigeria,Yola,9.203496,12.49539,Bombing/Explosion,28.0,96.0,55.2
+49551,2015,10,24,Bangladesh,Dhaka,23.81018,90.412296,Bombing/Explosion,2.0,101.0,41.60000000000001
+49605,2015,10,25,Iraq,Ramadi,33.416757,43.301382,Bombing/Explosion,16.0,27.0,20.4
+49783,2015,10,29,Iraq,Baghdad,33.298123,44.243224,Bombing/Explosion,23.0,24.0,23.4
+49847,2015,10,31,Egypt,Unknown,30.169854,34.173178,Bombing/Explosion,224.0,0.0,134.4
+49905,2015,11,1,Somalia,Mogadishu,2.031406,45.309401,Bombing/Explosion,21.0,24.0,22.200000000000003
+50309,2015,11,12,Lebanon,Beirut,33.843471,35.498738,Bombing/Explosion,24.0,119.0,62.0
+50310,2015,11,12,Lebanon,Beirut,33.843471,35.498738,Bombing/Explosion,23.0,119.0,61.4
+50356,2015,11,13,Iraq,Baghdad,33.277992,44.328386,Bombing/Explosion,14.0,36.0,22.8
+50498,2015,11,16,Iraq,Kasik,36.47099,42.670123,Bombing/Explosion,15.0,30.0,21.0
+50513,2015,11,17,Pakistan,Abi Gum,29.808836,67.398632,Bombing/Explosion,16.0,150.0,69.6
+50527,2015,11,17,Nigeria,Jambutu,9.284822,12.423722,Bombing/Explosion,33.0,80.0,51.8
+50576,2015,11,18,Nigeria,Kano,12.002179,8.591956,Bombing/Explosion,9.0,62.0,30.2
+50577,2015,11,18,Nigeria,Kano,12.002179,8.591956,Bombing/Explosion,8.0,61.0,29.200000000000003
+50927,2015,11,27,Nigeria,Dakasoye,12.002179,8.591956,Bombing/Explosion,22.0,38.0,28.4
+51206,2015,12,5,Chad,Koulfoua,13.003044,14.738038,Bombing/Explosion,7.0,44.0,21.8
+51207,2015,12,5,Chad,Koulfoua,13.003044,14.738038,Bombing/Explosion,6.0,43.0,20.799999999999997
+51208,2015,12,5,Chad,Koulfoua,13.003044,14.738038,Bombing/Explosion,6.0,43.0,20.799999999999997
+51422,2015,12,12,Syria,Homs,34.733526,36.733118,Bombing/Explosion,11.0,35.0,20.6
+51423,2015,12,12,Syria,Homs,34.733661,36.732997,Bombing/Explosion,12.0,35.0,21.2
+51440,2015,12,13,Pakistan,Parachinar,33.905705,70.100966,Bombing/Explosion,22.0,70.0,41.2
+51972,2015,12,27,Nigeria,Maiduguri,11.831098,13.150967,Bombing/Explosion,21.0,50.0,32.6
+52011,2015,12,28,Syria,Homs,34.733661,36.732997,Bombing/Explosion,16.0,45.0,27.6
+52012,2015,12,28,Syria,Homs,34.733661,36.732997,Bombing/Explosion,17.0,45.0,28.2
+52017,2015,12,28,Nigeria,Madagali,10.891605,13.627317,Bombing/Explosion,30.0,16.0,24.4
+52018,2015,12,28,Nigeria,Maiduguri,11.831098,13.150967,Bombing/Explosion,30.0,65.0,44.0
+52038,2015,12,29,Pakistan,Mardan,34.200114,72.050801,Bombing/Explosion,27.0,51.0,36.6
