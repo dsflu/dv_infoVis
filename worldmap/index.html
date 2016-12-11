@@ -12,6 +12,9 @@ path {
   stroke: #333;
   fill: orangered;
 }
+.test {
+}
+
 #slider3 {
   margin: 20px 0 10px 20px;
   width: 1080px;
@@ -92,6 +95,8 @@ var tooltip = d3.select("body")
     .style("visibility", "hidden")
     .text("")
 
+
+
 var displaySites = function(data) {
   var sites = svg.selectAll(".site")
       .data(data, function(d) {
@@ -133,13 +138,21 @@ var maxDateUnix = 2015;
 
 // var secondsInDay = 60 * 60 * 24;
 d3.select('#slider3').call(d3.slider()
-  .axis(true).min(minDateUnix).max(maxDateUnix).step(0.1)
+  .axis(true).min(minDateUnix).max(maxDateUnix).step(1/12)
   .on("slide", function(evt, value) {
+  	var sum_nkill = 0.0;
     var newData = _(site_data).filter( function(site) {
       //console.log();
+      if (site.year_m < value){
+      	sum_nkill  += +site.nkill;
+      }
       return site.year_m < value ;
     })
     displaySites(newData);
+    
+    console.log(sum_nkill);
+
+
   })
 );
 
