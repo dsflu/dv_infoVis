@@ -50,7 +50,7 @@ var width = 980,      //width of the map svg
     width_pie = 220,   //width of the pie graph svg
     height = 600;     //height of the map svg
 var projection = d3.geo.mercator()  // projection of the world map
-    .center([0, 0])
+    .center([0, 10])
     .scale(200)
     .rotate([-15,0]);
 var svg = d3.select("body").append("svg") //map svg on the right of the window
