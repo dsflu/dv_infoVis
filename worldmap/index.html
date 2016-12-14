@@ -255,11 +255,66 @@ var displaySites = function(data) {
                       .style("fill",  "red")
                       .transition().duration(800)
                       .attr("r", 3)
-                      .style("fill", "yellow");
+                      .style("fill", function(d){
+                        if (at.get(d.attack_t-1) == "Boming/Explosion" ){
+                          return "black";
+                        }
+                        else if(at.get(d.attack_t-1) =="Armed Assault"){
+                          return "red";
+                        }
+                        else{
+                          return "yellow";
+                        }
+                        }
+                      );
+  var legend3 = svg.selectAll('.legend')                     // legend that shows the attacktype
+                    .data(d3.range(0,3));
+
+      legend3.enter().append("g")
+                      .append('circle')                                
+                      .attr('r', 6) 
+                      .attr("cx",width/50)
+                      .attr("cy",function(d,i){
+                        return 4*height/5 + i*20;
+                      })                       
+                      .style('fill',function(d,i){
+                                if (i==1){
+                                  return "black";
+                                }
+                                else if(i==2){
+                                  return "red";
+                                }
+                                else{
+                                  return "yellow";
+                                }
+                                }
+                              );                            
+                                     
+      legend3.append('text')                                     
+              .attr('x', 10 + width/50)              
+              .attr('y',  function(d,i){
+                return 4*height/5 +5 + i*20;
+              })              
+              .text(function(d,i) { if (i==1){
+                          return "Boming/Explosion";
+                        }
+                        else if(i==2){
+                          return "Armed Assault";
+                        }
+                        else{
+                          return "Other Attack";
+                        }; })
+              .style("font-size","12pt");
+        
 
   sites.exit()
     .transition().duration(200)
       .attr("r",0.1)
+      .remove();
+
+  legend3.exit()
+      .transition().duration(200)
+      .attr("r",0) 
       .remove();
 };
 
