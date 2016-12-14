@@ -7,47 +7,76 @@ path {
   stroke-width: 0.25px;
   fill: steelblue;
 }
+rect {                                                      
+        stroke-width: 2;                                          
+} 
 .site {
-  stroke-width: .5px;
+  stroke-width: 0.5px;
   stroke: #333;
   fill: orangered;
 }
-.test {
+.arcs {
+  stroke-width: 0.5px;
+  stroke: #333;
+  fill: orangered;
 }
-
+.legend {                                                   
+  font-size: 9pt; 
+  stroke-width: 0.5px;
+  stroke: #333;
+  fill: orangered;                                         
+}                                                         
 #slider3 {
-  margin: 20px 0 10px 20px;
+  margin: 20px 0 30px 20px;
   width: 1080px;
 }
+#pie {
+  margin: 500px 0 500px 1000px;
+  width: 500; height: 500;
+}
+
 </style>
+
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script src="d3.slider.js"></script>
 
 <div id="slider3"></div>
+
 <script>
-var width = 1080,
-    height = 600;
+var width = 980,
+    width_pie = 220,
+    height = 600; 
 var projection = d3.geo.mercator()
     .center([0, 0])
-    .scale(200);
-     // .rotate([-180,0]);
+    .scale(200)
+    .rotate([-15,0]);
 var svg = d3.select("body").append("svg")
+    .attr("x",0)
+    .attr("y",0)
     .attr("width", width)
     .attr("height", height)
     .attr("id","map");
-
-
+var svg2 = d3.select("body").append("svg")
+    .attr("x",800)
+    .attr("y",0)
+    .attr("width", width_pie)
+    .attr("height", height)
+    .attr("id","map2");
 var path = d3.geo.path()
     .projection(projection);
 var g = svg.append("g");
 
-var colorScale = d3.scale.linear()
-                    .domain([0.0, 50.0, 200.0,1000.0])
-                    .range(["#FFFF00", "#FFAA00","#FF5500", "#FF0000"]);
+
+// var colours = ["#6363FF", "#6373FF", "#63A3FF", "#63E3FF", "#63FFFB", "#63FFCB",
+//                "#63FF9B", "#63FF6B"];
+
+// var colorScale = d3.scale.linear()
+//                     .domain(d3.range(1,8))
+//                     .range(colours);
+//                      .range(["#FFFF00", "#FFAA00","#FF5500", "#FF0000"]);
 
 var radiusScale = d3.scale.linear()
                     .domain([0.0, 100.0, 200.0])
@@ -68,18 +97,22 @@ d3.csv("dv_data.csv")
     .row(function(d) {
       return {
         case: d.case,
-        time: d.time,
+        region:d.region,
+        //time: d.time,
         lat: d.latitude,
         lng: d.longitude,
         nkill: d.nkill,
         city: d.city,
-        time: d.time,
+        //time: d.time,
         //created_at: moment(d.time,"DD-MM-YYYY hh:mm:ss").unix()
+        attack_t:d.attacktype1,
         year: d.iyear,
         year_m: d.year_m,
+        month: d.imonth,
+        day: d.iday,
         level: d.level
       };
-    })
+    })        
     .get(function(err, rows) {
       if (err) return console.error(err);
 
@@ -94,22 +127,164 @@ var tooltip = d3.select("body")
     .style("z-index", "10")
     .style("visibility", "hidden")
     .text("")
+//var piechart = function(data) {
+
+//}
+//--------------------
+var displaypie = function(data){
+  //console.log(data);
+  //var data1= [1,2,3,4,5];
+  var k = 0;
+  var m = d3.map(["North America", "Central America & Caribbean","South America","East Asia","Southeast Asia","South Asia","Central Asia","Western Europe","Eastern Europe","Middle East & North Africa","Sub-saharan Africa","Australasia & Oceania"]);
+ console.log(m.get(0)); 
+// m.get("foo"); // {"name": "foo"}
+// m.get("bar"); // {"name": "bar"}
+// m.get("baz"); // undefined
+
+    //width= 960;
+  //var pie_sum_region= data;
+var pie = d3.layout.pie();
+var piedata = pie(data);
+var pi= 3.14;
+console.log(piedata[0].startAngle);
+
+var outerRadius = 100; //外半径
+var innerRadius = 33.3; //内半径，为0则中间没有空白
+
+var arc = d3.svg.arc()  //弧生成器
+    .innerRadius(innerRadius)   //设置内半径
+    .outerRadius(outerRadius);  //设置外半径
+// console.log("---");
+//     console.log(piedata);
+//     console.log("---");
+
+var arcs = svg2.selectAll(".arcs")
+    .data(piedata,function(d){
+      return k++;
+    });
+
+    
+    
+var color = d3.scale.category20(); //有十种颜色的颜色比例尺
+
+var legend = svg2.selectAll('.legend')                     // NEW
+          .data(piedata,function(d){
+             return k++;
+           });
+var legend2 = svg2.selectAll('.legend')                     // NEW
+          .data(piedata,function(d){
+             return k++;
+           });
+    legend2.enter().append("g")
+           .append("text")
+           .attr('x', width_pie/2-27)              // NEW
+          .attr('y',  2*height/3)              // NEW
+          .text("Death Toll")
+          .style("font-size","10pt");
+
+    legend.enter().append("g")
+    .append('rect')                                     // NEW
+          .attr('width', 5)                          // NEW
+          .attr('height', 5) 
+          .attr("x",width_pie/4)
+          .attr("y",function(d,i){
+            return height/10 + i*15;
+          })                       // NEW
+          .style('fill',function(d,i){
+        return color(i);
+    })                                  // NEW
+          .style('stroke',function(d,i){
+        return color(i);
+    })        
+        .on("mouseover", function(d,i){
+        var percentage = (piedata[i].endAngle-piedata[i].startAngle)*100/(2*pi);
+      //console.log(i);
+        return tooltip.text(d3.round(percentage,2)+"%").style("visibility", "visible").style("background-color","white");})
+          .on("mousemove", function(){return tooltip.style("top",  (d3.event.pageY-10)+"px").style("left",(d3.event.pageX-50)+"px");})
+          .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+           ;                      // NEW
+          legend.append('text')                                     // NEW
+          .attr('x', 10 + width_pie/4)              // NEW
+          .attr('y',  function(d,i){
+            return height/10+7 + i*15;
+          })              // NEW
+          .text(function(d,i) { return m.get(i); })
+          .style("font-size","9pt");
+
+arcs.enter()
+    .append("g")
+    .attr("transform","translate("+ (width_pie/2) +","+ (2*height/3) +")");
+arcs.append("path")
+    .style("fill",function(d,i){
+        return color(i);
+    })
+     .on("mouseover", function(d,i){
+      var percentage = (piedata[i].endAngle-piedata[i].startAngle)*100/(2*pi);
+      //console.log(i);
+      return tooltip.text(
+        m.get(i)+", percentage: "+d3.round(percentage,2)+"%").style("visibility", "visible").style("background-color","white");
+    })
+     .on("mousemove", function(){return tooltip.style("top", 
+    (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+       .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+    .attr("d",function(d){
+        return arc(d);   //调用弧生成器，得到路径值
+    });
+//console.log("cao");
+  
+  // arcs.append("text")
+  //   .attr("transform",function(d){
+  //       return "translate(" + arc.centroid(d) + ")";
+  //   })
+  //   .attr("text-anchor","middle")
+  //   .text(function(d,i){
+  //     var percentage = -(piedata[i].endAngle-piedata[0].startAngle)/(2*pi);
+  //       return d3.round(percentage,2);
+  //   });
 
 
 
+    arcs.exit()
+     .transition().duration(200)
+      .attr("d",0)
+      .remove();
+
+      legend.exit()
+      .transition().duration(200)
+      .attr("x",width_pie/2)
+          .attr("y",height/4) 
+          .remove();
+
+      legend2.exit()
+      .transition().duration(200)
+      .attr("x",width_pie/2)
+          .attr("y",3*height/4) 
+          .remove();
+
+}
+
+
+//--------------------
 var displaySites = function(data) {
   var sites = svg.selectAll(".site")
       .data(data, function(d) {
         return d.case;
       });
+      // var attack = d3.map(["Assassination"，"Hijacking"，"Kidnapping"，"Barricade Incident Bombing/Explosion"，"Armed Assault"，"Unarmed Assault"，"Facility/Infrastructure Attack"，"Unknown"]);
+        var at = d3.map(["Assassination","Armed Assault","Boming/Explosion","Hijacking","Hostage Taking(Barricade Incident)","Hoatage Taking(Kidnapping)","Facility/Infrastructure Attack","Unarmed Assault","Unknown"]);
+       //console.log(at.get(0)); 
+
+
+
   sites.enter()
       .append("a")
           .attr("xlink:href", function(d) {
-            return "https://www.google.com/search?q="+d.city+" "+d.time;}
+            //if (at.get(d.attack_t) != )
+            return "https://www.google.com/search?q="+d.city+" "+d.year+"."+d.month+"."+d.day;}//+" "+at.get(+d.attack_t-1)
           )
       .append("circle")
       .attr("class", "site")
-      .on("mouseover", function(d){return tooltip.text("year:"+d.time+",city:"+d.city+", nkill:"+d.nkill).style("visibility", "visible").style("background-color","white");})
+      .on("mouseover", function(d){return tooltip.text("Time:"+d.year+"-"+d.month+"-"+d.day+",City:"+d.city+", Death:"+Math.round(d.nkill)+", Attack Type:"+at.get(+d.attack_t-1)).style("visibility", "visible").style("background-color","white");})
        .on("mousemove", function(){return tooltip.style("top", 
     (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
        .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
@@ -126,7 +301,41 @@ var displaySites = function(data) {
         .style("fill",  "red")
         .transition().duration(800)
         .attr("r", 3)
-        .style("fill",  function(d){return colorScale(d.level);});
+        .style("fill", "yellow");// function(d){return colorScale(+d.attack_t-1);});
+
+
+  // var legend2 = svg.selectAll('.legend')                     // NEW
+  //         .data(d3.range(0,9));
+
+  //   legend2.enter().append("g")
+  //   .append('circle')                                     // NEW
+  //         .attr('r', 3)      
+  //         .attr("cx",width/50)
+  //         .attr("cy",function(d,i){
+  //           return 3*height/4 + i*15+1;
+  //         })                       // NEW
+  //         .style('fill',function(d,i){
+  //       return colorScale(i);
+  //   })                                  // NEW
+  //         .style('stroke',function(d,i){
+  //       return colorScale(i);
+  //   })        ;                        // NEW
+  //         legend2.append('text')                                     // NEW
+  //         .attr('x', 10 + width/50)              // NEW
+  //         .attr('y',  function(d,i){
+  //           return 3*height/4+5+ i*15;
+  //         })              // NEW
+  //         .text(function(d,i) { return at.get(i); })
+  //         .style("font-size","9pt");
+
+  //           legend2.exit()
+  //     .transition().duration(200)
+  //     //.text(function(d,i) { return at.get(i); })
+  //         .style("font-size","0pt")   
+  //         .remove();
+
+
+
   sites.exit()
     .transition().duration(200)
       .attr("r",0.1)
@@ -136,25 +345,29 @@ var displaySites = function(data) {
 var minDateUnix = 1992;
 var maxDateUnix = 2015;
 
+
 // var secondsInDay = 60 * 60 * 24;
 d3.select('#slider3').call(d3.slider()
   .axis(true).min(minDateUnix).max(maxDateUnix).step(1/12)
   .on("slide", function(evt, value) {
   	var sum_nkill = 0.0;
+    var sum_region=new Array(0,0,0,0,0,0,0,0,0,0,0,0);
     var newData = _(site_data).filter( function(site) {
-      //console.log();
       if (site.year_m < value){
-      	sum_nkill  += +site.nkill;
+//      	sum_nkill  += +site.nkill;
+      temp = +site.region;
+      sum_region[temp-1] += +site.nkill;
       }
+     // console.log(sum_region);
       return site.year_m < value ;
     })
     displaySites(newData);
-    
-    console.log(sum_nkill);
-
-
+    displaypie(sum_region);
   })
 );
+
+
+
 
 // zoom and pan
 // var zoom = d3.behavior.zoom()
