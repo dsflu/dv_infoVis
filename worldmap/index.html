@@ -1,8 +1,23 @@
+<!-- 
+Data Visualization infoVis Project
+Created by Feng Lu, Yi Li, Ying Yu
+2016-12 
+-->
+
+<!-- 
+the structure of our program can be mainly divided into four parts:
+1. codes drawing the world map
+2. function to draw the pie graph
+3. function to draw the circles(city) on the map according to our data
+4. (main entrance)codes drawing the timeline, 
+    which controls how much data we want to show on the map and the structure of the pie graph 
+-->
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="d3.slider.css" /> 
 <style>
-path {
+path {       /* path of the world map*/
   stroke: white;
   stroke-width: 0.25px;
   fill: steelblue;
@@ -10,7 +25,7 @@ path {
 rect {                                                      
         stroke-width: 2;                                          
 } 
-.site {        /*circles on the map*/
+.site {        /*cities on the map*/
   stroke-width: 0.5px;
   stroke: #333;
   fill: orangered;
@@ -26,11 +41,11 @@ rect {
   stroke: #333;
   fill: orangered;                                         
 }                                                         
-#slider3 {                
+#slider3 {                /*d3.slider*/
   margin: 20px 0 30px 20px;
   width: 1080px;
 }
-#pie {
+#pie {        /*pie graph*/
   margin: 500px 0 500px 1000px;
   width: 500; height: 500;
 }
@@ -43,8 +58,8 @@ rect {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script src="d3.slider.js"></script>
 
-<div id="slider3"></div>    <!-- we used the d3.slider from the github (https://github.com/MasterMaps/d3-slider) -->
-
+<div id="slider3"></div>    <!-- we used the d3.slider from the github (https://gist.github.com/cmdoptesc/fc0e318ce7992bed7ca8) -->
+                            <!-- source codes of the silder are d3.slider.js and d3.slider.css-->
 <script>
 var width = 980,      //width of the map svg
     width_pie = 220,   //width of the pie graph svg
@@ -59,7 +74,7 @@ var svg = d3.select("body").append("svg") //map svg on the right of the window
     .attr("width", width)
     .attr("height", height)
     .attr("id","map");
-var svg_pie = d3.select("body").append("svg")  //pie graph svg on the right of the window
+var svg_pie = d3.select("body").append("svg")  //pie graph svg on the left of the window
     .attr("x",800)
     .attr("y",0)
     .attr("width", width_pie)
@@ -69,7 +84,7 @@ var path = d3.geo.path()    // path of the world map
     .projection(projection);
 var g = svg.append("g");
 
-var radiusScale = d3.scale.linear()    // this scale controls the circle's size on the map according to the 'level' component of the data
+var radiusScale = d3.scale.linear()    // this scale controls the circle's(city) size on the map according to the 'level' column of the data
                     .domain([0.0, 100.0, 200.0])
                     .range([5,15, 25]);
 
@@ -113,7 +128,7 @@ var tooltip = d3.select("body")            // tooltips controls the text content
                 .style("visibility", "hidden")
                 .text("")
 
-// the function to draw the pie graph
+// function to draw the pie graph
 var displaypie = function(data){    
   var k = 0; // key control to each arcs
   var m = d3.map(["North America", "Central America & Caribbean","South America","East Asia","Southeast Asia","South Asia",
@@ -223,7 +238,7 @@ var displaypie = function(data){
 }
 
 
-// the function to draw the circles on the map according to our data
+// function to draw the circles(city) on the map according to our data
 var displaySites = function(data) {
   var sites = svg.selectAll(".site")
                   .data(data, function(d) {
@@ -235,7 +250,7 @@ var displaySites = function(data) {
   sites.enter()
         .append("a")
         .attr("xlink:href", function(d) {
-              return "https://www.google.com/search?q="+d.city+" "+d.year+"."+d.month+"."+d.day;  // google search function when you click on the circles(cities) on the map
+              return "https://www.google.com/search?q="+d.city+" "+d.year+"-"+d.month+"-"+d.day;  // google search function when you click on the circles(cities) on the map
             })
         .append("circle")
         .attr("class", "site")      // when moving mouse onto the circles, it will shows some infomation about the attack
@@ -321,11 +336,12 @@ var displaySites = function(data) {
 var minDateUnix = 1992; // min num of the slider
 var maxDateUnix = 2015; // max num of the slider
 
-d3.select('#slider3').call(d3.slider()  // function to draw the silder
+// the codes below draw the timeline, which controls how much data we want to show on the map and the structure of the pie graph
+d3.select('#slider3').call(d3.slider()  // function to draw the d3.silder(timeline)
   .axis(true).min(minDateUnix).max(maxDateUnix).step(1/12) //min step on the slider is 1/12(month)
-  .on("slide", function(evt, value) { // value is the current value of the slider(year)
+  .on("slide", function(evt, value) { // value is the current value of the slider(year+month/12)
         var sum_region=new Array(0,0,0,0,0,0,0,0,0,0,0,0); // sum of the total number of killed men of each region
-        var newData = _(site_data).filter( function(site) {  // filter data that are smaller than current selected year
+        var newData = _(site_data).filter( function(site) {  // filter data that are smaller than current selected value
           if (site.year_m < value){
           temp = +site.region;
           sum_region[temp-1] += +site.nkill;
